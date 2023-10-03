@@ -1,0 +1,1638 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+}
+
+/* Header */
+
+header
+{
+    background-color: #febe10;
+    height: 130px;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.container
+{
+    margin-top: 35px;
+    margin-left: 350px;
+}
+.container ul
+{
+    list-style: none;
+}
+.container ul li
+{
+    background-color: #590047;
+    color:#febe10;
+    width: 110px;
+    height: 50px;
+    border: 1px solid #febe10;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    
+}
+.container ul li:hover
+{
+    background-color:#febe10;
+    color: #590047;
+    border: 1px solid  #590047;
+}
+.container ul ul
+{
+    display: none;
+}
+.container ul li:hover > ul
+{
+    display: block;
+}
+
+/* Header End */
+
+
+/* Footer */
+footer
+{
+    background-color:#febe10;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+
+ .coloum1
+{
+    color: #7f4673;
+	width: 31%;
+    float: left;
+    margin-left: 20px;
+}
+
+ .coloum1 h1
+{
+    margin-top: 40px;
+	margin-bottom: 20px;
+	color: #590047;
+}
+
+ .coloum1 ul li
+{
+    margin-bottom: 20px;
+	font-size: 18px;
+	list-style: none;
+}
+
+.coloum1 ul li i
+{
+    margin-right: 10px;
+}
+
+
+.coloum2
+{
+    color:#7f4673;
+	width: 25%;
+    float: left;
+    margin-left: 80px;
+}
+
+ .coloum2 h1
+{
+    margin-top: 40px;
+	margin-bottom: 20px;
+	color: #590047;
+}
+
+.coloum2 h6
+{
+    color:#590047;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.coloum3
+{
+    color: #7f4673;
+	width: 33%;
+	float: left;
+}
+
+ .coloum3 h1
+{
+    margin-top: 40px;
+	margin-bottom: 20px;
+	color:#590047;
+}
+
+ .coloum3 ul li
+{
+    margin-bottom: 20px;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+
+/* End Footer*/
+
+
+/* Home Page */
+.home
+{
+    margin: 0 auto;
+
+}
+
+.welcome
+{
+    color: #febe10;
+    font-family:  Brush Script MT, Brush Script Std, cursive;
+    float: left; 
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+
+.amusement
+{
+    color: #590047;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-left: 20px;
+    float: left;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.section1
+{
+    color: #590047;
+    font-size: 70px;
+    text-align: center;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+}
+.rest
+{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.rest1
+{
+    height: 350px;
+    width: 340px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    float: left;
+}
+
+.rest1 img
+{
+    margin: 20px;
+}
+
+.rest1 h3
+{
+    color: #590047;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rest1 .text6
+{
+    width: 130px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #590047;
+    color: #febe10;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.rest1:hover
+{
+    background-color: lightgray;
+}
+
+
+.rest2
+{
+    height: 350px;
+    width: 340px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    float: left;
+    
+}
+.rest2 img
+{
+    margin: 20px;
+}
+
+.rest2 h3
+{
+    color: #590047;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rest2 .text6
+{
+    width: 130px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #590047;
+    color: #febe10;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.rest2:hover
+{
+    background-color: lightgray;
+}
+
+
+.rest3
+{
+    height: 350px;
+    width: 340px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    float: left;
+    
+}
+.rest3 img
+{
+    margin: 20px;
+}
+
+.rest3 h3
+{
+    color: #590047;
+    text-align: center;
+    font-size: 30px;
+}
+
+.rest3 .text6
+{
+    width: 130px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #590047;
+    color: #febe10;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.rest3:hover
+{
+    background-color: lightgray;
+}
+
+.rest3 .text6:hover, .rest2 .text6:hover, .rest1 .text6:hover
+{
+    background-color: #febe10;
+    color: #590047;
+    cursor: pointer;
+}
+
+.attract
+{
+    margin-top: 50px;
+    height: 340px;
+    float: left;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.attract .attract1
+{
+    float: left;
+    word-spacing: 10px;
+    margin-left: 80px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.attract img
+{
+    float: left;
+    margin-left: 33px;
+    margin-right: 50px;
+    margin-top: 20px;
+    box-shadow: 8px 8px 8px 8px rgb(0, 0, 1, 0.151);
+}
+
+.attract .text7
+{
+    float: left;
+    margin-top: -50px;
+    width: 550px;
+    height: 50px;
+    margin-left: 90px;
+    background-color: #590047;
+    color: #febe10;
+    outline: none;
+    border: none;
+}
+
+.attract .text7:hover
+{
+    background-color: #febe10;
+    color: #590047;
+    cursor: pointer;
+}
+
+.section2
+{
+    color: #590047;
+    font-size: 70px;
+    text-align: center;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+}
+
+.tasveer
+{
+    margin-top: 50px;
+    height: 340px;
+    float: left;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.tasveer .tasveer1
+{
+    float: left;
+    word-spacing: 10px;
+    margin-left: 50px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.tasveer img
+{
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 1, 0.151);
+}
+
+.tasveer .text8
+{
+    float: left;
+    margin-top: 50px;
+    width: 550px;
+    height: 50px;
+    margin-left: 70px;
+    background-color: #590047;
+    color: #febe10;
+    outline: none;
+    border: none;
+}
+
+.tasveer .text8:hover
+{
+    background-color: #febe10;
+    color: #590047;
+    cursor: pointer;
+}
+
+.section3
+{
+    color: #590047;
+    font-size: 70px;
+    text-align: center;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+}
+
+.slip
+{
+    margin-top: 50px;
+    height: 340px;
+    float: left;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.slip .slip1
+{
+    float: left;
+    word-spacing: 10px;
+    margin-left: 80px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.slip img
+{
+    float: left;
+    margin-left: 28px;
+    margin-right: 50px;
+    margin-top: 20px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 1, 0.151);
+}
+
+.slip .text8
+{
+    float: left;
+    width: 550px;
+    height: 50px;
+    margin-left: 90px;
+    background-color: #590047;
+    color: #febe10;
+    outline: none;
+    border: none;
+    margin-top: -50px;
+}
+
+.slip .text8:hover
+{
+    background-color: #febe10;
+    color: #590047;
+    cursor: pointer;
+}
+
+
+.slider
+{
+    
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom:20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.slides
+{
+	position: relative;
+	width: 7200px;
+	animation: 15s slider infinite;
+}
+
+.slides img
+{
+	float: left;
+}
+
+@keyframes slider
+{
+	0%
+	{
+		left: 0px;
+
+	}
+	
+	20% 
+	{
+		left:0px 
+	}
+	25%
+	{
+		left: -1200px; 
+	}
+	45%
+	{
+		left: -1200px; 
+	}
+
+	50%
+	{
+		left: -2400px; 
+	}
+
+	70%
+	{
+		left: -2400px; 
+	}
+
+	75%
+	{
+		left: -3600px; 
+	}
+
+	95%
+	{
+		left: -3600px; 
+	}
+
+	100%
+	{
+		left: -4800px; 
+	}
+
+}
+
+/* Home Page End */
+
+/* Contact-Us Page */
+.contactus
+{
+    background-image: url(../Images/ride-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1200px;
+    
+    margin: 0 auto;
+}
+
+.contactus .contact
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 650px;
+    margin-left: 50px;
+    margin-top: 100px;
+    height: 950px;
+    border-radius: 10px;
+    float: left;
+    color: white;
+    
+}
+
+.contact h1
+{
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+.contact form p
+{
+    margin-top: 25px;
+    padding-left: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.contact form .text  
+{
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    width: 73%;
+}
+
+
+.contact form .textarea
+{
+    margin-left: 80px;
+    resize: none;
+    border: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+.contact form .submit-button
+{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+	height: 40px;
+	width: 422px;
+    background-color: royalblue;
+    border:0px; 
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.contact form .submit-button:hover
+{
+    background-color:lawngreen;
+}
+
+/* End Contact-Us Page */
+
+/* login Page */
+
+.signup
+{
+    background-image: url(../Images/rollercoster-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.signup .login
+{
+    text-align: center;
+    width: 500px;
+    height: 420px;
+    background-color: rgba(0,0, 0, 0.5);
+    margin-left: 750px;
+    margin-top: 150px;
+    color: white;
+    border-radius: 10px;
+}
+
+.signup .login form img
+{
+    margin-top: -50px;
+}
+
+.signup .login form h1
+{
+    font-family:"helvetica nenu", helvetica, arial, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.signup .login form .user
+{
+    margin-left: -400px;
+    font-size: 20px;
+}
+
+.signup .login form .pass
+{
+    margin-left: -400px;
+    font-size: 20px;
+}
+
+.signup .login form i
+{
+    width: 35px;
+    float: left;
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.signup .login form .text2
+{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    width: 90%;
+}
+
+.signup .login form .btn
+{
+    width: 95%;
+    height: 30px;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+
+.signup .login form .btn:hover
+{
+    background-color: lawngreen;
+    cursor: pointer;
+    color: black;
+}
+
+::-webkit-input-placeholder
+{
+    color:gray;
+}
+
+.signup .login form a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.signup .login form a:hover
+{
+    color: black;
+}
+/*End login-Up Page */
+
+/* Sign-Up */
+
+.signin
+{
+    background-image: url(../Images/rollercoster-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.signin .sign-again
+{
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    background-color: rgba(0,0, 0, 0.5);
+    margin-left: 750px;
+    margin-top: 150px;
+    color: white;
+    border-radius: 10px;
+}
+
+.signin .sign-again form img
+{
+    margin-top: -50px;
+}
+
+.signin .sign-again form h1
+{
+    font-family:"helvetica nenu", helvetica, arial, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.signin .sign-again form .name
+{
+    margin-left: -425px;
+    font-size: 20px;
+}
+
+.signin .sign-again form .username
+{
+    margin-left: -385px;
+    font-size: 20px;
+}
+
+.signin .sign-again form .password
+{
+    margin-left: -385px;
+    font-size: 20px;
+}
+
+.signin .sign-again form .password1
+{
+    margin-left: -310px;
+    font-size: 20px;
+}
+
+.signin .sign-again form .text3
+{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    width: 95%;
+}
+
+.signin .sign-again form .createbtn
+{
+    width: 95%;
+    height: 30px;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.signin .sign-again form .createbtn:hover
+{
+    background-color: lawngreen;
+    cursor: pointer;
+    color: black;
+}
+
+
+/* Sign-Up Page End */
+
+
+/* Gallery Page */
+ 
+.gallery
+{
+    text-align: center;
+}
+
+.gallery h1
+{
+    text-align: center;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+    color:#590047;
+    padding: 50px;
+    font-size: 50px;
+    padding-top: 150px;
+    
+}
+
+.pic-1, .pic-2, .pic-3, .pic-4
+{
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.pic-1:hover, .pic-2:hover, .pic-3:hover, .pic-4:hover
+{
+    transform: scale(1.3);
+}
+
+.pic-5, .pic-6, .pic-7, .pic-8
+{
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.pic-5:hover, .pic-6:hover, .pic-7:hover, .pic-8:hover
+{
+    transform: scale(1.3);
+    box-shadow: gray;
+}
+
+.pic-9, .pic-10, .pic-11, .pic-12
+{
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.pic-9:hover, .pic-10:hover, .pic-11:hover, .pic-12:hover
+{
+    transform: scale(1.3);
+}
+
+.pic-13, .pic-14, .pic-15, .pic-16
+{
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.pic-13:hover, .pic-14:hover, .pic-15:hover, .pic-16:hover
+{
+    transform: scale(1.3);
+}
+
+/* Gallery Page End*/
+
+
+/* About-Us Page*/
+
+.about
+{
+    background-color:lightgray;
+    height: 2700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about h1
+{
+    color: #590047;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 2px solid #590047;
+    border-top: 2px solid #590047;
+}
+
+.about p
+{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+}
+
+.about ul li
+{
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.ques
+{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ans
+{
+    font-size: 17px;
+	font-family: 'PT Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	padding-bottom: 20px;
+	line-height: 25px;
+}
+
+.questions
+{
+    font-weight: bolder;
+	font-size: 24px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* About Us  PAGE END */
+
+/* Disclamier  PAGE */
+
+#disclamier
+{
+	width: 1200px;
+	margin: 0 auto;
+	height: 1520px;
+}
+
+.disclamier-1
+{
+	background-color:lightgray;
+}
+
+#disclamier h1
+{
+	font-family: "helvetica nenu", helvetica, arial, sans-serif;
+	color: #590047;
+	padding-top: 150px;
+	margin-bottom: 30px;
+}
+
+#disclamier p
+{
+	font-size: 18px;
+	font-family: 'PT Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	color: #000;
+	line-height: 30px;
+	margin-bottom: 40px;
+}
+
+#disclamier ul li
+{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+#disclamier ul li h2
+{
+	font-family: "helvetica nenu", helvetica, arial, sans-serif;
+	color:#590047;
+}
+
+/* Disclamier PAGE END */
+
+/*Entry_tickets Page */
+.ticket
+{
+    background-image: url(../Images/ride-19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto ;
+    height: 1500px;
+}
+
+ .ticket h1,.ticket_1 h1
+ {
+    color: brown;
+    margin-left: 150px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+ }
+ .ticket .first-coloum
+ {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 700px;
+    margin-left: 550px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+ }
+
+ .ticket .first-coloum .first h2
+ {
+    text-align: center;
+    padding-top: 10px;
+   
+    padding-bottom: 30px;
+    color: chartreuse;
+ }
+
+ .ticket .first-coloum .first li 
+ {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+ }
+
+ .ticket .first-coloum .first .button-first, .ticket .second-coloum .second .button-first,.ticket .third-coloum .third .button-first
+ {
+    background-color: chartreuse;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-left: 250px;
+    align-items: center;
+    outline: none;
+ }
+
+.ticket .first-coloum .first .button-first:hover, .ticket .second-coloum .second .button-first:hover,.ticket .third-coloum .third .button-first:hover
+{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+.ticket .second-coloum
+ {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 360px;
+    width: 700px;
+    margin-left: 550px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+ }
+
+ .ticket .second-coloum .second h2
+ {
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+    color: chartreuse;
+ }
+
+ .ticket .second-coloum .second li 
+ {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+ }
+ .ticket .third-coloum
+ {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 700px;
+    margin-left: 550px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+ }
+
+ .ticket .third-coloum .third h2
+ {
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+    color: chartreuse;
+ }
+
+ .ticket .third-coloum .third li 
+ {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+ }
+ 
+/*Entry_Ticket PAGE END */
+
+/* Ride_Ticket Page */
+
+.ticket_1
+{
+    background-image: url(../Images/ride-19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto ;
+    height: 1000px;
+}
+.ticket1
+{
+    width: 35%;
+    height: 600px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.ticket2
+{
+    width: 35%;
+    height: 600px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.ticket1 table 
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+.ticket1 table tr td,.ticket1 table tr th
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ride_quantity
+{
+    width: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-align: center;
+}
+.ticket_2
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 60px;
+}
+.ticket2 .ticket_2 label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.ticket2 .ticket_2 #ticket_text,.ticket2 .ticket_2 #ticket_email
+{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    margin-top: 5px;
+    border-bottom: 2px solid white;
+    padding: 5px;
+}
+.ticket2 .ticket_2 select
+{
+    width: 75%;
+    margin-top: 20px;
+    height: 30px;
+}
+.ticket2 .ticket_2 #price
+{
+    color: white;
+    margin-top: 20px;
+}
+.ticket2 .ticket_2 #ticket_btn
+{
+    width: 60%;
+    margin-left: 20%;
+    height: 30px;
+    margin-top: 20px;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 15px;
+}
+.ticket2 .ticket_2 #ticket_btn:hover
+{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+
+/* Entertainment Page */
+
+
+.flip-card 
+{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+  
+.flip-card-inner 
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+}
+  
+.flip-card:hover .flip-card-inner 
+{
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front 
+{
+    background-color: #bbb;
+    color: black;
+}
+  
+.flip-card-back 
+{
+    background-color:  #febe10;
+    color:#590047;
+    transform: rotateY(180deg);
+}
+
+.entertainment
+{
+
+    width: 100%;
+    height: 1700px;
+
+}
+
+.btn-6
+{   
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    background-color: #590047;
+    border: none;
+    color: #febe10;
+}
+
+.btn-6:hover
+{
+    background-color: #febe10;
+    border: 1px solid #590047;
+    color: #590047;
+    cursor: pointer;
+}
+iframe
+{
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+/* Entertainment Page End */
+
+/* Attraction Page  */
+
+.content
+{
+    margin: 0 auto;
+}
+
+.content .content1
+{
+    color: #590047;
+    font-size: 50px;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+    margin-top: 50px;
+    float: left;
+    margin-left: 500px;
+}
+
+.content2
+{
+    margin-top: 50px;
+    height: 340px;
+    float: left;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.content2 img
+{
+    margin-top: 20px;
+    box-shadow: 8px 8px 8px 8px rgb(0, 0, 1, 0.151);
+    float: left;
+    margin-left: 50px;
+}
+
+
+.content2 .inner-content2
+{
+    float: left;
+    word-spacing: 10px;
+    margin-left: 80px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+   
+}
+
+.content2 .inner-content2 .content-heading2
+{
+    color: #590047;
+    text-align: center
+}
+
+.content2 .inner-content2 p
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.content2 .inner-content2 .content-btn2
+{
+    width: 500px;
+    height: 50px;
+    background-color: #590047;
+    color: #febe10;
+    margin-top: 50px;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.content2 .inner-content2 .content-btn2:hover
+{
+    background-color: #febe10;
+    color: #590047;
+    box-shadow:  2px 2px 2px 2px rgb(0, 0, 1, 0.151);
+    cursor: pointer;
+}
+
+.content3
+{
+    margin-top: 50px;
+    height: 340px;
+    float: left;
+    
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.content3 .inner-content3
+{
+    float: left;
+    word-spacing: 10px;
+    margin-left: 50px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.content3 .inner-content3 .content-heading3
+{
+    text-align: center;
+    color: #590047;
+}
+
+.content3 .inner-content3 p
+{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.content3 img
+{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-right: 50px;
+    box-shadow: 8px 8px 8px 8px rgb(0, 0, 1, 0.151);
+}
+
+.content3 .inner-content3 .text9
+{
+    width: 500px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #590047;
+    color: #febe10;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.content3 .inner-content3 .text9:hover
+{
+    background-color: #febe10;
+    color: #590047;
+    box-shadow:  2px 2px 2px 2px rgb(0, 0, 1, 0.151);
+    cursor: pointer;
+}
+
+.content4
+{
+    margin-top: 50px;
+    height: 380px;
+    float: left;
+    background-color: lightgray;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.content4 img
+{
+    margin-top: 20px;
+    box-shadow: 8px 8px 8px 8px rgb(0, 0, 1, 0.151);
+    float: left;
+    margin-left: 50px;
+}
+
+
+.content4 .inner-content4
+{
+    float: left;
+    word-spacing: 10px;
+    margin-left: 80px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+   
+}
+
+.content4 .inner-content4 .content-heading4
+{
+    color: #590047;
+    text-align: center
+}
+
+.content4 .inner-content4 p
+{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.content4 .inner-content4 .text10
+{
+    width: 500px;
+    height: 50px;
+    background-color: #590047;
+    color: #febe10;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.content4 .inner-content4 .text10:hover
+{
+    background-color: #febe10;
+    color: #590047;
+    box-shadow:  2px 2px 2px 2px rgb(0, 0, 1, 0.151);
+    cursor: pointer;
+}
+
+/* Attraction Page End */
+
+/* Restaurant Page */
+
+.restaurant
+{
+    margin: 0 auto;
+}
+.restaurant-heading1
+{
+    color: #febe10;
+    font-family:  Brush Script MT, Brush Script Std, cursive;
+    float: left; 
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+
+.restaurant-heading2
+{
+    color: #590047;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-left: 20px;
+    float: left;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.sub-heading
+{
+    color: #590047;
+    font-size: 50px;
+    text-align: center;
+    font-family: "helvetica nenu", helvetica, arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.menu1
+{
+    height: 450px;
+    width: 340px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    float: left;
+}
+
+.menu1 img
+{
+    margin: 20px;
+}
+
+.menu1 h3
+{
+    color: #590047;
+    text-align: center;
+    font-size: 30px;
+}
+.menu1 .quantity
+{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu1 .rate
+{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu1 .text12
+{
+    width: 130px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #590047;
+    color: #febe10;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.menu1:hover
+{
+    background-color: lightgray;
+}
+
+.menu1 .text12:hover
+{
+    background-color: #febe10;
+    color: #590047;
+    cursor: pointer;
+}

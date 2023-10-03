@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../Assets/CSS/Style.css">
+    <script src="../Assets/JavaScript/MyJavaScript.js" type="text/javascript"></script>
+    <link href="../Assets/Images/logo2.png" rel="icon" type="image/png">
+    <title>Online Ticktes</title>
+</head>
+<body>
+    <header>
+        <a href="Index.html"><img src="../Assets/Images/logo.png" height="120px" width="300px" style="float: left; margin-left: 20px; margin-top: 5px;"></a>
+        <div class="container">
+            <ul>
+                <a href="Index.html" style="text-decoration: none; color: blue;"><li>Home</li></a>
+                <a href="gallery.html" style="text-decoration: none; color: blue;"><li>Gallery</li></a>
+                <li style="position: relative;">Visit To Places
+                    <ul style="position: absolute;">
+                        <a href="entertainment.html" ><li>Entertainment</li></a>
+                        <a href="restaurant.html" ><li>Restaurant</li></a>
+                        <a href="attraction.html" ><li>Attraction</li></a>
+                    </ul>
+                </li>
+                
+                <li style="position: relative;">Online Tickets
+                  <ul style="position: absolute;">
+                    <a href="Ride_Tickets.html" ><li>Ride Tickets</li></a>
+                    <a href="Entry_Tickets.html" ><li>Entry Tickets</li></a>
+
+                  </ul>
+                </li>
+
+                <a href="aboutus.html" style="text-decoration: none; color: blue;"><li>About-Us</li></a>
+                <a href="contactus.html" style="text-decoration: none; color: blue;"><li>Contact-Us</li></a>
+                <a href="disclamier.html" style="text-decoration: none; color: blue;"><li>Disclamier</li></a>
+                <a href="login.html" style="text-decoration: none; color: blue;"><li>Login</li></a>
+            </ul>
+        </div>
+    </header>
+
+    <div class="ticket_1">
+        <h1>Book Rides In Merciado Amusement Park</h1>
+        <div class="ticket1">
+            <table border="2px" cellspacing="0px">
+                <tr>
+                    <th style="color: white;">Quantity</th>
+                    <th style="color: white;">Tickets</th>
+                    <th style="color: white;">Prices</th>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" class="ride_quantity" id="ride_1" value="0"></td>
+                    <td style="color: white;text-align: center;">Ballon Race</td>
+                    <td style="color: white;text-align: center;">PKR 320</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_2" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Rollar Coaster</td>
+                    <td style="color: white;text-align: center;">PKR 800</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_3" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Swing</td>
+                    <td style="color: white;text-align: center;">PKR 320</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_4" class="ride_quantity"value="0"></td>
+                    <td style="color: white;text-align: center;">Pirate Ship</td>
+                    <td style="color: white;text-align: center;">PKR 480</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_5" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Dark Ride</td>
+                    <td style="color: white;text-align: center;">PKR 1000</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_6" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Drop Tower</td>
+                    <td style="color: white;text-align: center;">PKR 600</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_7" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Evaluation</td>
+                    <td style="color: white;text-align: center;">PKR 480</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_8" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Ferris Wheel</td>
+                    <td style="color: white;text-align: center;">PKR 600</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_9" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Merry-Go-Round</td>
+                    <td style="color: white;text-align: center;">PKR 480</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_10" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Dodgem-Car</td>
+                    <td style="color: white;text-align: center;">PKR 600</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_11" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Pendulum</td>
+                    <td style="color: white;text-align: center;">PKR 320</td>
+                </tr>
+                <tr>
+                    <td><input type="number" min="0" id="ride_12" class="ride_quantity" value="0"></td>
+                    <td style="color: white;text-align: center;">Ali-Baba</td>
+                    <td style="color: white;text-align: center;">PKR 320</td>
+                </tr>
+            </table>
+        </div>
+        <div class="ticket2">
+            <div class="ticket_2">
+                <label name="Name" class="ticket_name" style="color: white;">Name:</label><br>
+                <input type="text" id="ticket_text" placeholder="Enter Name Here">
+                <br>
+                <p id="ticket_text1" style="color: red; display: none;">Please Enter Your Name!!!</p>
+
+                <label name="Name" class="ticket_name" style="color: white;">Email:</label><br>
+                <input type="email" id="ticket_email" placeholder="Enter Email Here">
+                <p id="ticket_email1" style="color: red; display: none;">Please Enter Your Email!!!</p>
+                <p id="ticket_email2" style="color: red; display: none;">Please Enter Valid Email !!!</p>
+                <br>
+                <select >
+                    <option>Select Payment Option</option>
+                    <option>Cash On Delivery</option>
+                    <option>Credit Card</option>
+                    <option>Cash On Occasion</option>
+                </select>
+                <h3 id="price">Price 0</h3>
+
+                <input type="submit" onclick="fun()" value="Book Now" id="ticket_btn">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        
+        <div class="coloum1">
+            <h1>Contact Us</h1>
+            <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>DHA SUFFA UNIVERSITY Karachi</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>www.Merciado-Amusement-Park.pk</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>(+92)21-111 278 324</li>
+                <li><i class="fa fa-laptop" aria-hidden="true"></i>www.Merciado-Amusement-Park.com.pk</li>
+            </ul>
+        </div>
+    
+        <div class="coloum2">
+            <h1>Park Timing</h1>
+            <h6>Monday-Friday</h6>
+            <p>9am - 11pm</p>
+            <h6>Saturday & Sunday</h6>
+            <p>9am - 1am</p>
+        </div>
+    
+        <div class="coloum3">
+            <h1>Developed By</h1>
+            <ul>
+                <li>Shahroze Khan</li>
+                <li>Muhammad Ahmed Raza</li>
+                <li>Sami Ahmed</li>
+            </ul>
+        </div>
+        
+    </footer>
+</body>
+</html>
